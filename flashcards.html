@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards - Science Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flashcards</h1>
+        <div class="flashcard" id="flashcard">
+            <p id="question">Loading...</p>
+            <p id="answer" class="hidden">Answer: Loading...</p>
+        </div>
+        <div class="buttons">
+            <button onclick="showAnswer()">Show Answer</button>
+            <button onclick="prevFlashcard()">Previous</button>
+            <button onclick="nextFlashcard()">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
